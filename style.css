@@ -1,0 +1,63 @@
+/* form */
+form div {
+  margin-bottom: 14px;
+}
+label{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  background: rgba(255,255,255,.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+  max-width: 240px;
+  width: 100%;
+}
+textarea{
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+.btn{
+font-size: 1.375tem;
+background: #0bd;
+padding: 18px 32px;
+border-radius: 5px;
+color: #fff;
+margin-bottom: 14px;
+} 
+.btn:hover{
+  background: #0090aa;
+}
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+} 
+
+/* 私の書き方 
+.btn{
+   display: block; 
+  <a>ではないので、書かなくてい
+
+  color: white;
+  background: skyblue;
+  padding:  5px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  
+} 
+.btn:hover{
+  opacity: 1;
+}  */
+
+/* /form */
